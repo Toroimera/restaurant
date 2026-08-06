@@ -8,6 +8,8 @@ const menuBtn = document.getElementById('menu');
 const aboutBtn = document.getElementById('about');
 const content = document.getElementById('content');
 
+loadHomePage(content);
+
 homeBtn.addEventListener('click', () => {
     loadHomePage(content);
 });
